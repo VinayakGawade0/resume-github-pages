@@ -1,0 +1,22 @@
+:root{
+  --muted:#6c757d;
+  --accent:#0d6efd;
+}
+body{
+  font-family: 'Lora', Georgia, serif;
+  color:#222;
+  background:#fff;
+}
+.section-title{
+  font-size:1.125rem;
+  margin-bottom:0.6rem;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+h1{font-weight:700;margin-bottom:.2rem}
+.lead{color:var(--muted)}
+ul{margin-top:.5rem}
+a{color:var(--accent)}
+.container{max-width:900px}
+.navbar-brand{font-family: 'Lora', serif}
