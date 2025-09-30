@@ -1,108 +1,56 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vinayak Gawade — Resume</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <style>
-    body { font-family: 'Inter', sans-serif; background: #f9fafc; color: #222; }
-    h1,h2,h3,h4,h5,h6 { font-family: 'Merriweather', serif; }
-    .navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-    .hero { background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); padding: 4rem 1rem; text-align: center; }
-    .hero h1 { font-weight: 700; }
-    .section { padding: 3rem 1rem; }
-    .section-title { text-transform: uppercase; font-size: 1rem; letter-spacing: 0.08em; margin-bottom: 1.5rem; color: #0d6efd; }
-    footer { background:#fff; border-top:1px solid #eee; padding:1rem 0; text-align:center; font-size:0.9rem; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinayak Gawade — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">Vinayak Gawade</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="nav">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-        <li class="nav-item"><a class="btn btn-outline-primary ms-2" href="resume/VG_Resume.pdf" download>Download PDF</a></li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.html">Vinayak Gawade</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+<li class="nav-item"><a class="btn btn-outline-primary ms-2" href="resume/VG_Resume.pdf" download>Download PDF</a></li>
+</ul>
+</div>
+</div>
 </nav>
 
-<!-- Hero Section -->
-<div class="hero">
-  <div class="container">
-    <h1 class="display-5">Vinayak Gawade</h1>
-    <p class="lead">Software Engineer — Java | Spring Boot | Microservices | NiFi | Kafka | Drools</p>
-    <p class="small">
-      📧 <a href="mailto:vinayakgawade35@gmail.com">vinayakgawade35@gmail.com</a> · 
-      📞 +91 9967489596 · 
-      🔗 <a href="https://linkedin.com/in/VinayakGawade0" target="_blank">LinkedIn</a> · 
-      💻 <a href="https://github.com/VinayakGawade0" target="_blank">GitHub</a>
-    </p>
-  </div>
+
+<div class="hero text-center">
+<div class="container py-5">
+<h1 class="display-5 fw-bold">Vinayak Gawade</h1>
+<p class="lead">Software Engineer — Java | Spring Boot | Microservices | NiFi | Kafka | Drools</p>
+<p class="small">
+📧 <a href="mailto:vinayakgawade35@gmail.com">vinayakgawade35@gmail.com</a> ·
+📞 +91 9967489596 ·
+🔗 <a href="https://linkedin.com/in/VinayakGawade0">LinkedIn</a> ·
+💻 <a href="https://github.com/VinayakGawade0">GitHub</a>
+</p>
+</div>
 </div>
 
-<!-- Section placeholders linking to separate pages -->
-<div class="container">
-  <div class="row text-center g-4 my-5">
-    <div class="col-md-3">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">About</h5>
-          <p class="card-text small">Professional summary and skills</p>
-          <a href="about.html" class="btn btn-primary btn-sm">View</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Experience</h5>
-          <p class="card-text small">Work history and internships</p>
-          <a href="experience.html" class="btn btn-primary btn-sm">View</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Projects</h5>
-          <p class="card-text small">Key academic & personal projects</p>
-          <a href="projects.html" class="btn btn-primary btn-sm">View</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card h-100 border-0 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Education</h5>
-          <p class="card-text small">Degrees and academic details</p>
-          <a href="education.html" class="btn btn-primary btn-sm">View</a>
-        </div>
-      </div>
-    </div>
-  </div>
+
+<div class="container my-5">
+<div class="row g-4 text-center">
+<div class="col-md-3"><a href="about.html" class="card h-100 shadow-sm text-decoration-none"><div class="card-body"><h5>About</h5><p class="text-muted small">Summary & skills</p></div></a></div>
+<div class="col-md-3"><a href="experience.html" class="card h-100 shadow-sm text-decoration-none"><div class="card-body"><h5>Experience</h5><p class="text-muted small">Work history</p></div></a></div>
+<div class="col-md-3"><a href="projects.html" class="card h-100 shadow-sm text-decoration-none"><div class="card-body"><h5>Projects</h5><p class="text-muted small">Academic & professional</p></div></a></div>
+<div class="col-md-3"><a href="education.html" class="card h-100 shadow-sm text-decoration-none"><div class="card-body"><h5>Education</h5><p class="text-muted small">Academic record</p></div></a></div>
+</div>
 </div>
 
-<footer>
-  <div class="container">
-    <div>© 2025 Vinayak Gawade · Hosted with GitHub Pages</div>
-  </div>
-</footer>
 
+<footer class="text-center py-3 border-top small text-muted">© 2025 Vinayak Gawade · Hosted with GitHub Pages</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
