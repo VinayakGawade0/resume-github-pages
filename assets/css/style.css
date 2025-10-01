@@ -1,0 +1,74 @@
+/* Base + typography system aligned to the reference */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700&display=swap');
+
+:root{
+  --vg-body-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol", sans-serif;
+  --vg-heading-font: "Inter Tight", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --vg-body-lh: 1.75;
+  --vg-head-lh: 1.15;
+  --vg-head-tracking: -0.0125em;
+}
+
+body{ font-family: var(--vg-body-font); background:#f9fafc; color:#222; line-height: var(--vg-body-lh); font-weight:400; }
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--vg-heading-font);
+  line-height: var(--vg-head-lh);
+  letter-spacing: var(--vg-head-tracking);
+  color:#2b2f33;
+  margin-bottom:.5rem;
+}
+
+/* Scales close to the screenshot */
+h1{ font-size: clamp(2.25rem, 2.2rem + 1vw, 3.25rem); font-weight:700; }
+h2{ font-size: clamp(1.75rem, 1.65rem + .6vw, 2.25rem); font-weight:700; }
+h3{ font-size: clamp(1.35rem, 1.28rem + .4vw, 1.7rem); font-weight:700; }
+h4{ font-size: 1.25rem; font-weight:600; }
+h5{ font-size: 1.05rem; font-weight:600; color:#3a3f45; }
+h6{ font-size: .95rem; font-weight:600; color:#56606b; }
+
+/* Navbar + brand (kept) */
+.navbar{ box-shadow:0 2px 4px rgba(0,0,0,.05); padding:1rem; }
+.navbar a{ margin-right:1rem; color:#222; text-decoration:none; font-weight:500; }
+.brand-sandstone{ font-family: var(--vg-heading-font); letter-spacing:.2px; }
+
+/* Hero (kept) */
+.hero-warm{ background-color:#fdf7ec; }
+
+/* Sections (kept) */
+.section{ padding:3rem 1rem; max-width:900px; margin:0 auto; }
+.section-title{ text-transform:uppercase; font-size:.95rem; letter-spacing:.08em; margin-bottom:1.25rem; color:#0d6efd; }
+
+footer{ background:#fff; border-top:1px solid #eee; padding:1rem 0; text-align:center; font-size:.9rem; }
+ul{ padding-left:1.2rem; }
+
+/* Highlights row (colors unchanged) */
+.highlights-row{ display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap; }
+.highlights-row .btn{ border:0; color:#fff; font-weight:700; padding:.6rem 1rem; border-radius:.5rem; }
+.highlights-row .btn-primary{ background-color:#2c7be5; }
+.highlights-row .btn-secondary{ background-color:#495057; }
+.highlights-row .btn-success{ background-color:#51cf66; }
+.highlights-row .btn-info{ background-color:#5bc0de; }
+.highlights-row .btn-warning{ background-color:#f6a623; }
+.highlights-row .btn-danger{ background-color:#f25c54; }
+
+/* Demo cards + buttons */
+.demo-card{ background:#fff; border:1px solid #eee; border-radius:.75rem; padding:1.25rem; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+.demo-buttons .btn{ border:0; font-weight:700; padding:.6rem 1rem; border-radius:.5rem; }
+.demo-buttons .btn-light{ color:#212529; }
+.demo-buttons .btn-link{ font-weight:600; text-decoration-thickness:2px; }
+
+/* Typography demo layout: two columns like screenshot */
+.typography-grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 2rem 3rem;
+}
+@media (min-width: 992px){
+  .typography-grid{ grid-template-columns: 1fr 1fr; align-items:start; }
+}
+
+/* Subtle body copy color like reference */
+.demo-typography .lead{ color:#586474; }
+.demo-typography p{ margin-bottom:.85rem; color:#3a3f45; }
+.demo-typography a{ color:#0d6efd; text-decoration:underline; text-decoration-thickness:2px; }
+.demo-typography small{ color:#6c757d; }
