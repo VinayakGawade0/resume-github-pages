@@ -3,53 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Vinayak Gawade</title>
+  <title>Projects - Vinayak Gawade</title>
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
-  <link id="font-zephyr" href="assets/css/zephyr.css" rel="stylesheet" disabled />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
 <body class="bg-light">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold brand-sandstone mx-auto" href="index.html">Vinayak Gawade</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-center">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
-          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
-          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+
+  <!-- Shared navbar include -->
+  <div data-include="nav"></div>
 
   <section class="py-5">
     <div class="container">
-      <h2 class="section-title">Key Projects</h2>
+      <h2 class="section-title mb-4">Key Projects</h2>
+      
+      <div class="mb-4 p-3 bg-white border shadow-sm rounded">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <span class="fw-semibold">Jobs, Internships and Courses Recommendation System</span>
+          <span class="small text-muted fst-italic">B.E. Final Year (2021–22)
+            <a href="http://www.ijmer.com/papers/Vol9_issue1/E0901013337.pdf" target="_blank" rel="noopener" class="ms-2"><i class="bi bi-pen"></i> Publication</a>
+          </span>
+        </div>
+        <div class="mt-2">
+          Python ML system for jobs/courses using content-based, collaborative and hybrid filtering; NLP with NLTK; user feedback for accuracy.
+        </div>
+      </div>
 
-      <h3 class="h5 mt-3">Jobs, Internships and Courses Recommendation System (B.E. final year 2021–22)</h3>
-      <p>Developed a Python-based recommendation system using ML (Content-Based, Collaborative, Hybrid Filtering). NLP with NLTK and collaborative filtering improved relevance. <a href="http://www.ijmer.com/papers/Vol9_issue1/1E0901013337.pdf" target="_blank" rel="noopener">Publication</a></p>
+      <div class="mb-4 p-3 bg-white border shadow-sm rounded">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <span class="fw-semibold">Women Safety Mobile Application</span>
+          <span class="small text-muted fst-italic">B.E. SEM VII</span>
+        </div>
+        <div class="mt-2">
+          Android app: shake detection sends live location alerts; tech: Firebase, Geolocation API, accelerometer sensors.
+        </div>
+      </div>
 
-      <h3 class="h5 mt-4">Women Safety Mobile Application (B.E. SEM VII)</h3>
-      <p>Android app sends emergency alerts with live location to registered contacts. Used Firebase, Geolocation API, and accelerometer sensors.</p>
+      <div class="mb-4 p-3 bg-white border shadow-sm rounded">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <span class="fw-semibold">Price Comparison E-commerce Platform</span>
+          <span class="small text-muted fst-italic">B.E. SEM V</span>
+        </div>
+        <div class="mt-2">
+          'The Finder' website compares product prices—frontend in HTML/CSS/Bootstrap; backend in PHP &amp; MySQL.
+        </div>
+      </div>
 
-      <h3 class="h5 mt-4">Price Comparison E-commerce Platform (B.E. SEM V)</h3>
-      <p>The Finder website compares prices across e-commerce websites. Frontend: HTML, CSS, Bootstrap. Backend: PHP, MySQL.</p>
+      <div class="p-3 bg-white border shadow-sm rounded">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <span class="fw-semibold">Gesture Control Voice Command over Android Device</span>
+          <span class="small text-muted fst-italic">Diploma Final Year (2018–19)
+            <a href="http://dickensian.org/Volume-22-Issue-6-2022/" target="_blank" rel="noopener" class="ms-2"><i class="bi bi-pen"></i> Publication</a>
+          </span>
+        </div>
+        <div class="mt-2">
+          Flexible sensor gloves for mute, hand gesture-to-command system, Bluetooth to Android, and text-to-speech for voice output.
+        </div>
+      </div>
 
-      <h3 class="h5 mt-4">Gesture Control Voice Command over Android Device</h3>
-      <p>Gesture and voice interface for Android device control with sensor fusion; published results and comparisons.</p>
     </div>
   </section>
 
-  <footer class="text-center py-3 border-top bg-white text-muted">
-    <div class="container">© 2025 Vinayak Gawade. All rights reserved.</div>
-  </footer>
+  <!-- Shared footer include -->
+  <div data-include="footer"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>

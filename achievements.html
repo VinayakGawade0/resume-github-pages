@@ -1,60 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Achievements | Vinayak Gawade</title>
+  <title>Achievements - Vinayak Gawade</title>
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
-  <link id="font-zephyr" href="assets/css/zephyr.css" rel="stylesheet" disabled />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
-
 <body class="bg-light">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold brand-sandstone mx-auto" href="index.html">Vinayak Gawade</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-center">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link active" href="achievements.html">Achievements</a></li>
-          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+
+  <!-- Shared Navbar -->
+  <div data-include="nav"></div>
 
   <section class="py-5 bg-white border-bottom">
     <div class="container text-center">
-      <h1 class="display-5 fw-bold brand-sandstone mb-2">Achievements</h1>
+      <h1 class="display-5 fw-bold brand-sandstone mb-2">Achievements</h1> <!-- &amp; Certifications -->
       <p class="text-muted mb-0">Recognition and awards</p>
     </div>
   </section>
 
   <section class="py-5">
     <div class="container">
-      <ul class="list-group list-group-flush shadow-sm rounded overflow-hidden">
-        <li class="list-group-item">
-          First Runner-Up - SSC Technologies GIDS Hackathon 2024 — Secured 2nd position among 40 teams by developing
-          innovative Document Digitization solution using Vidado ICR technology.
-        </li>
-      </ul>
+      <div class="card border-0 shadow-sm mb-3">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <span class="fw-semibold">First Runner-Up - SS&amp;C Technologies GIDS Hackathon 2024</span>
+            <span class="small text-muted">Jul 2024</span>
+          </div>
+          <div class="mt-2">
+            Secured 2nd position among 40+ teams by developing document digitization solution using Vidado (ICR) technology.<br>
+            Built a template-driven system with Spring Boot microservices &amp; Angular frontend, featuring one-time config for scalable enterprise efficiency.
+          </div>
+        </div>
+      </div>
+      <!-- Add more cards here for additional achievements -->
     </div>
   </section>
 
-  <footer class="text-center py-3 border-top bg-white text-muted">
-    <div class="container">© 2025 Vinayak Gawade. All rights reserved.</div>
-  </footer>
+  <!-- Shared Footer -->
+  <div data-include="footer"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
-
 </html>

@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Experience | Vinayak Gawade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Experience - Vinayak Gawade</title>
+
+  <!-- CSS -->
   <link href="assets/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
-  <link id="font-zephyr" href="assets/css/zephyr.css" rel="stylesheet" disabled />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
 <body class="bg-light">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold brand-sandstone mx-auto" href="index.html">Vinayak Gawade</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-center">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-          <li class="nav-item"><a class="nav-link active" href="experience.html">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
-          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
+  <!-- Shared navbar include (JS will inject); -->
+  <div data-include="nav"></div>
+
+  <!-- Content -->
   <section class="py-5">
     <div class="container">
       <h2 class="section-title">Professional Experience</h2>
 
-      <h3 class="h5 mt-3">Software Engineer, SSC Technologies (Jan 2022–Present)</h3>
-      <ul>
-        <li>Developed scalable microservices using Java and Spring Boot, leveraging RedHat Drools Rule Engine for business automation.</li>
-        <li>Integrated NiFi and Kafka for robust data flows, implemented AWS S3 storage solutions.</li>
-        <li>Supported Angular front-end development and improved software quality with JUnit/Mockito testing.</li>
-        <li>Gained exposure to Docker and Kubernetes for containerization and deployment.</li>
-        <li>Worked in Agile teams, meeting deadlines while supporting continuous improvement.</li>
+      <!-- SS&C Technologies -->
+      <h3 class="h5 mt-3">Software Engineer, SS&amp;C Technologies <span class="text-muted">(Jan 2022–Present · Navi Mumbai, MH)</span></h3>
+      <ul class="mb-4">
+        <li>Developed scalable microservices using Java and Spring Boot, leveraging RedHat Drools Rule Engine for dynamic business rule management and automation.</li>
+        <li>Integrated Apache NiFi and Kafka for robust data flows, and implemented seamless storage and retrieval using AWS S3 for high reliability and scalability.</li>
+        <li>Improved software quality and reliability through unit testing (JUnit, Mockito), code reviews, and effective Git version control.</li>
+        <li>Supported front-end development using Angular, resolving issues and implementing features for better user experience.</li>
+        <li>Gained exposure to Docker and Kubernetes for containerization and deployment in environments.</li>
+        <li>Worked in Agile teams, meeting tight deadlines while supporting continuous improvement.</li>
       </ul>
 
-      <h3 class="h5 mt-4">Data Analyst Intern, Business Toys (May 2021)</h3>
-      <ul>
-        <li>Studied e-commerce analytics to understand customer behavior.</li>
-        <li>Implemented data visualization and insights for decision-making.</li>
+      <!-- Business Toys -->
+      <h3 class="h5 mt-3">Data Analyst Intern, Business Toys <span class="text-muted">(May 2021 · Bengaluru, KA)</span></h3>
+      <ul class="mb-4">
+        <li>Studied e-commerce website analytics to understand customer patterns and decision-making processes.</li>
+        <li>Explored data visualization techniques for enhancing marketing strategies and predictive analytics.</li>
+        <li>Gained foundational knowledge in translating raw data into actionable business insights.</li>
+      </ul>
+
+      <!-- MindScript -->
+      <h3 class="h5 mt-3">Android Developer Trainee, MindScript <span class="text-muted">(May–Jun 2018 · Thane, MH)</span></h3>
+      <ul class="mb-0">
+        <li>Completed hands-on Android development training, building a student management system.</li>
+        <li>Worked with Java for backend logic and XML for user interface design.</li>
+        <li>Learned the basics of mobile app lifecycle and debugging real devices.</li>
       </ul>
     </div>
   </section>
 
-  <footer class="text-center py-3 border-top bg-white text-muted">
-    <div class="container">© 2025 Vinayak Gawade. All rights reserved.</div>
-  </footer>
+  <!-- Shared footer include (JS will inject); -->
+  <div data-include="footer"></div>
 
+  <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
