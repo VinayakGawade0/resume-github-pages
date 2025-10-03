@@ -72,3 +72,12 @@ ul{ padding-left:1.2rem; }
 .demo-typography p{ margin-bottom:.85rem; color:#3a3f45; }
 .demo-typography a{ color:#0d6efd; text-decoration:underline; text-decoration-thickness:2px; }
 .demo-typography small{ color:#6c757d; }
+
+/* Spacing tune for hero buttons/links if needed */
+.after-highlights-tight { margin-top: -0.5rem; }
+
+/* Brand link colors */
+.link-linkedin { color: #0A66C2; }
+.link-linkedin:hover { color: #084d96; }
+.link-github { color: #24292F; }
+.link-github:hover { color: #111418; }

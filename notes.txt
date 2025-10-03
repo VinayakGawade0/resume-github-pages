@@ -1,0 +1,7 @@
+https://vinayakgawade0.github.io/vg-resume/index.html
+
+bootstrap:
+    https://bootswatch.com/zephyr/
+
+python -m http.server 8000
+    http://localhost:8000/index.html
